@@ -8,9 +8,9 @@ pipeline {
 //   label 'jenkins-slave-1'
 // }
 
-    tools {
-        maven 'mymaven'
-    }
+    // tools {
+    //     maven 'mymaven'
+    // }
 
     stages {
         stage('build') {
